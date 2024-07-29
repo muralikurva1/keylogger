@@ -27,3 +27,11 @@ To get started, clone this repository to your local machine:
 ```bash
 git clone https://github.com/muralikurva1/keylogger.git
 cd keylogger
+
+### Install Dependencies
+Install the required Python packages listed in requirements.txt:
+pip install -r requirements.txt
+
+Usage
+To run the keylogger, execute the keylogger.py script:
+python keylogger.py
