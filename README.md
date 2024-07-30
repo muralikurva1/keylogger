@@ -1,4 +1,4 @@
-# Keylogger Project
+# Keylogger Project v1.1
 
 ## Overview
 
@@ -17,21 +17,26 @@ This project is a Python-based keylogger that records keystrokes and logs them t
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- Pip (Python package installer)
+- Windows OS
 
-### Clone the Repository
+### Using the Setup File
 
-To get started, clone this repository to your local machine:
+1. Download the setup file from the [latest release](https://github.com/muralikurva1/keylogger/releases/latest).
+2. Run `setup.exe`. This will install all required dependencies and start the keylogger automatically.
 
-```bash
-git clone https://github.com/muralikurva1/keylogger.git
-cd keylogger
+### Stopping the Keylogger
 
-### Install Dependencies
-Install the required Python packages listed in requirements.txt:
-pip install -r requirements.txt
+- Press `Ctrl + Alt + Esc` to stop the keylogger.
 
-Usage
-To run the keylogger, execute the keylogger.py script:
-python keylogger.py
+## Changelog
+
+### v1.1
+- Added `setup.exe` to install all dependencies and run the keylogger automatically.
+- Improved user experience by simplifying installation and execution.
+
+### v1.0
+- Initial release with basic keylogging functionality.
+
+## Disclaimer
+
+This tool is intended for educational purposes only. Use responsibly and ethically.
